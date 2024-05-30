@@ -5,7 +5,7 @@ include('includes/dbconnection.php');
 if (strlen($_SESSION['cvmsaid']==0)) {
   header('location:logout.php');
   } else{
-
+  
 
 
 if(isset($_GET['vid']))
